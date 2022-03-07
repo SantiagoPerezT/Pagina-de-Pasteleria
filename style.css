@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+
+#header {
+  display: grid;
+  grid-template-columns: 68% 30%;
+  align-items: center;
+
+  width: 100%;
+  height: 120px;
+  border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+  background-color: #48dbc8;
+}
+
+#header h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.logotipo {
+  padding: 10px;
+  margin-left: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+.logotipo h1 {
+  font-family: helvetica;
+  font-style: italic;
+  font-weight: 90px;
+  font-size: 35px;
+  color: white;
+}
+
+#nav {
+  width: 100%;
+
+  height: 100%;
+  padding-right: 20px;
+}
+#nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 100%;
+  list-style: none;
+}
+#nav a {
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  transition: 300ms all;
+}
+#nav a:hover {
+  background: #ffa1d0;
+  color: white;
+}
+
+#adornos_sabores {
+  width: 90%;
+  height: 230px;
+  margin: 60px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #2bfc70;
+  border: #5fe632 10px solid;
+}
+
+#sabores {
+  width: 40%;
+  height: auto;
+  display: block;
+  float: right;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+}
+
+#sabores h2{
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#adornos h2 {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#adornos {
+  width: 40%;
+  height: auto;
+  display: block;
+  float: right;
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+}
+
+input[type="checkbox"] + label {
+  color: #white;
+}
+input[type="checkbox"]:checked + label {
+  color: #ffa1d0;
+}
+
+/*Pie de pagina*/
+
+#footer {
+  width: 100%;
+  height: 230px;
+  background-color: #e17dee;
+  color: white;
+  overflow: hidden;
+}
